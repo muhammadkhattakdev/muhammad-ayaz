@@ -1,15 +1,14 @@
-import { useState } from 'react'
-import './App.css'
-import { Route } from 'react-router-dom'
-import Router from './components/common/router'
+import React from 'react';
+import './App.css';
+import Homepage from './components/pages/homepage/homepage';
+import Router from './components/router';
 
 function App() {
-
   return (
-    <>
+    <div className="app">
       <Router />
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
